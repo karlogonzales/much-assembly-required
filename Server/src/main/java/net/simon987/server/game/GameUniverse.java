@@ -133,9 +133,13 @@ public class GameUniverse {
         }
     }
 
+    public World getWorldValue(String key){
+        return worlds.get(key);
+    }
+
     /**
      * Removes the world with given coordinates from the universe.
-     * 
+     *
      * @param x     the x coordinate of the world to be removed
      * @param y     the y coordinate of the world to be removed
      */
